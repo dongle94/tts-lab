@@ -1,0 +1,22 @@
+# Dependencies / cloned repos
+MeloTTS/
+
+# Model weights and assets
+assets/
+
+# Python environments
+envs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OMC internal state
+.omc/
+
+# Audio output files
+results/**/*.wav
+
+# Temporary / environment-specific files
+mecab.py
