@@ -15,8 +15,5 @@ __pycache__/
 # OMC internal state
 .omc/
 
-# Audio output files
-results/**/*.wav
-
 # Temporary / environment-specific files
 mecab.py
