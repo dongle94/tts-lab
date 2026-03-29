@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-03-29T02:30:16+0900",
+  "streaming": {
+    "supported": false,
+    "first_packet_latency_sec": null,
+    "note": "Installed qwen_tts wrapper exposes non_streaming_mode for simulated streaming text input only; it does not expose true streaming generation or packet callbacks."
+  },
+  "custom_voice": {
+    "load_sec": 9.28342,
+    "gpu": {
+      "available": true,
+      "allocated_mb": 3985.0,
+      "reserved_mb": 4112.0,
+      "peak_allocated_mb": 3986.73,
+      "peak_reserved_mb": 4112.0
+    },
+    "samples": [
+      {
+        "case": "NO_INSTRUCT",
+        "generate_sec": 9.990153,
+        "audio_seconds": 5.36,
+        "sample_rate": 24000,
+        "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_custom_no_instruct.wav"
+      },
+      {
+        "case": "STY_01",
+        "generate_sec": 2.685741,
+        "audio_seconds": 2.96,
+        "sample_rate": 24000,
+        "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_custom_sty_01.wav"
+      },
+      {
+        "case": "STY_02",
+        "generate_sec": 3.909236,
+        "audio_seconds": 4.32,
+        "sample_rate": 24000,
+        "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_custom_sty_02.wav"
+      },
+      {
+        "case": "STY_03",
+        "generate_sec": 2.829989,
+        "audio_seconds": 3.28,
+        "sample_rate": 24000,
+        "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_custom_sty_03.wav"
+      },
+      {
+        "case": "STY_04",
+        "generate_sec": 5.486433,
+        "audio_seconds": 6.0,
+        "sample_rate": 24000,
+        "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_custom_sty_04.wav"
+      }
+    ]
+  },
+  "base": {
+    "load_sec": 76.842952,
+    "generate_sec": 23.867226,
+    "audio_seconds": 3.76,
+    "sample_rate": 24000,
+    "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_base_clone.wav",
+    "gpu": {
+      "available": true,
+      "allocated_mb": 8035.4,
+      "reserved_mb": 8438.0,
+      "peak_allocated_mb": 8308.59,
+      "peak_reserved_mb": 8438.0
+    }
+  },
+  "voice_design": {
+    "load_sec": 74.965663,
+    "generate_sec": 3.53383,
+    "audio_seconds": 3.04,
+    "sample_rate": 24000,
+    "path": "/mnt/f/Dev/tts-lab/results/phase3/qwen3-tts/qwen_voice_design.wav",
+    "gpu": {
+      "available": true,
+      "allocated_mb": 12020.47,
+      "reserved_mb": 12398.0,
+      "peak_allocated_mb": 12110.15,
+      "peak_reserved_mb": 12398.0
+    }
+  }
+}
